@@ -1,8 +1,9 @@
-import React from 'react'
-import { act } from 'react-test-renderer'
-import { App } from '../src/App'
-import { fetchMock } from './mock/fetch'
-import { createAsync } from './utils/createAsync'
+import React from 'react';
+import { act } from 'react-test-renderer';
+
+import { App } from '../src/App';
+import { fetchMock } from './mock/fetch';
+import { createAsync } from './utils/createAsync';
 
 describe('Station No.4', () => {
   const fetch = jest.fn()
