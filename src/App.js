@@ -18,11 +18,5 @@ export const App = () => {
       .then(data => setdogUrl(data.message))
   }, [])
 
-  return (
-    <>
-      <header>React Stations</header>
-      <div>犬の画像</div>
-      <img src={dogUrl} />
-    </>
-  )
+  return <img src={dogUrl} />
 }
