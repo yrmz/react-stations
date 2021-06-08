@@ -12,17 +12,20 @@ export const App = () => {
     'https://images.dog.ceo/breeds/spaniel-brittany/n02101388_6057.jpg',
   )
 
-  // React.useEffect(() => {
-  //   fetch('https://dog.ceo/api/breeds/image/random')
-  //     .then(res => res.json())
-  //     .then(data => setDogUrl(data.message))
-  // }, [])
+  const handleUpdateImage = () => {
+    fetch('https://dog.ceo/api/breeds/image/random')
+      .then(res => res.json())
+      .then(data => setDogUrl(data.message))
+  }
 
   return (
     <div>
       <header>React Stations</header>
       <div>犬の画像</div>
       <img src={dogUrl} />
+      <div>
+        <button onClick={() => handleUpdateImage()}>更新</button>
+      </div>
     </div>
   )
 }
