@@ -12,11 +12,9 @@ export const App = () => {
     'https://images.dog.ceo/breeds/spaniel-brittany/n02101388_6057.jpg',
   )
 
-  React.useEffect(() => {
-    fetch('https://dog.ceo/api/breeds/image/random')
-      .then(res => res.json())
-      .then(data => setdogUrl(data.message))
-  }, [])
+  fetch('https://dog.ceo/api/breeds/image/random')
+    .then(res => res.json())
+    .then(data => setdogUrl(data.message))
 
   return <img src={dogUrl} />
 }
