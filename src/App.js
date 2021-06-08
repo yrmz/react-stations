@@ -20,11 +20,18 @@ export const App = () => {
 
   return (
     <div>
-      <header>React Stations</header>
-      <div>犬の画像</div>
-      <img src={dogUrl} />
-      <div>
-        <button onClick={() => handleUpdateImage()}>更新</button>
+      <header>Dog アプリ</header>
+      <title>犬の画像</title>
+      <div className="container">
+        <div className="description">これは犬の画像を表示するサイトです。</div>
+        <div className="image">
+          <img src={dogUrl} />
+          <div className="button">
+            <a href="#" onClick={() => handleUpdateImage()}>
+              更新
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  height: 50px;
+  background-color: rgb(215, 210, 210);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px 0;
+  padding: 20px 0;
+  border-bottom: solid 1px rgb(72, 71, 71);
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.image {
+  margin: 0 50px;
+}
+.button {
+  text-align: right;
+}
+.button > a {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
