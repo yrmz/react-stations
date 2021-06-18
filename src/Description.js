@@ -18,7 +18,7 @@ export const Description = () => {
     <div className="container">
       <div className="description">これは犬の画像を表示するサイトです。</div>
       <div className="image-container">
-        <DogImage dogUrl={dogUrl} />
+        <DogImage url={dogUrl} />
         <div className="button">
           <a href="#" onClick={() => handleUpdateImage()}>
             更新

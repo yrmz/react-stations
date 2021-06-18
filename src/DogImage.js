@@ -4,7 +4,7 @@ import React from 'react'
 export const DogImage = props => {
   return (
     <div className="image">
-      <img src={props.dogUrl} />
+      <img src={props.url} />
     </div>
   )
 }
