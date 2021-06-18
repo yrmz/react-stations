@@ -1,6 +1,6 @@
 // DO NOT DELETE
 
-import React from 'react'
+import * as React from 'react'
 import DogImage from './DogImage'
 
 export const Description = () => {

@@ -3,5 +3,10 @@
 import * as React from 'react'
 
 export const Header = () => {
-  return <header>Dog アプリ</header>
+  return (
+    <>
+      <title>犬の画像</title>
+      <header>Dog アプリ</header>
+    </>
+  )
 }
