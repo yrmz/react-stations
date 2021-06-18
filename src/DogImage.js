@@ -1,10 +1,10 @@
 // DO NOT DELETE
 import React from 'react'
 
-export const DogImage = ({ dogUrl }) => {
+export const DogImage = props => {
   return (
     <div className="image">
-      <img src={dogUrl} />
+      <img src={props.dogUrl} />
     </div>
   )
 }
