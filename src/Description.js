@@ -1,7 +1,7 @@
 // DO NOT DELETE
 
 import * as React from 'react'
-import DogImage from './DogImage'
+import { DogImage } from './DogImage'
 
 export const Description = () => {
   const [dogUrl, setDogUrl] = React.useState(

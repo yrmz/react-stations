@@ -12,7 +12,6 @@ import { Description } from './Description'
 export const App = () => {
   return (
     <div>
-      <title>犬の画像</title>
       <Header />
       <Description />
     </div>
