@@ -23,9 +23,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-grow: 1;
+  flex-grow: 1; /*ここが良い*/
 }
-.image {
+.image-container {
   margin: 0 50px;
 }
 .button {
